@@ -33,11 +33,13 @@ sudo ifconfig
 
 <img width="783" height="412" alt="Screenshot 2026-06-11 095255" src="https://github.com/user-attachments/assets/623bc71e-d2be-4241-b805-92aa2b18f26a" />
 
-Used the tcpdump -D command to display the interfaces available for packet capture and verify the interface selected for the lab:
+Step 2. Used the tcpdump -D command to display the interfaces available for packet capture and verify the interface selected for the lab:
 
 sudo tcpdump -D
 
 <img width="751" height="288" alt="Screenshot 2026-06-11 095329" src="https://github.com/user-attachments/assets/182181c9-d96f-4eee-8a91-287c251ebf5a" />
+
+This command will also allow you to identify which network interfaces are available. This may be useful on systems that do not include the ifconfig command.
 
 # Inspect Network Traffic with TCPdump
 
